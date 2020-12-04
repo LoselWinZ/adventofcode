@@ -5,12 +5,13 @@ public class Day03 {
     public static void main(String[] args) throws FileNotFoundException {
         List<String> input = FileReader.readFileToStringList("src/inputs/input3");
         partOne(input);
-//        partTwo(input);
+        //Output wrong
+        partTwo(input);
     }
 
     private static void partOne(List<String> input) {
-        int stepsRight = 1;
-        int stepsDown = 2;
+        int stepsRight = 3;
+        int stepsDown = 1;
         System.out.println(calculateTreeEncounters(input, stepsRight, stepsDown));
     }
 

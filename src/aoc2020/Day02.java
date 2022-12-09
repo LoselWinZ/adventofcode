@@ -1,3 +1,5 @@
+package aoc2020;
+
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;

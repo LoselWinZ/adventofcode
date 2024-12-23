@@ -1,12 +1,14 @@
 package aoc2020;
 
+import common.FileReader;
+
 import java.io.FileNotFoundException;
 import java.util.List;
 
 public class Day01 {
 
     public static void main(String[] args) throws FileNotFoundException {
-        String filename = "src/inputs/input";
+        String filename = "src/aoc2020/inputs/input";
         List<Integer> input;
         input = FileReader.readFileToIntList(filename);
         partTwo(input);

@@ -1,5 +1,7 @@
 package aoc2020;
 
+import common.FileReader;
+
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
